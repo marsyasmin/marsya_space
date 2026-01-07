@@ -1,0 +1,78 @@
+body
+{
+    background-image: url("animation/ani2.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #420c0c;
+    text-align: center;
+}
+header 
+{
+    background-color: #420c0c;
+    padding: 10px;
+    text-align: center;
+    color: #f0e5e3;
+    height: 120px;
+}
+nav a:link,
+nav a:visited 
+{
+    color: #492a34;
+    background-color: #f4d3ca;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+nav a:hover 
+{
+    color: #420c0c;
+    background-color: beige;
+}
+h2 
+{
+    text-align: center;
+}
+footer 
+{
+    background-color: #420c0c;
+    color: #f4d3ca;
+    padding: 5px 10px;
+    text-align: center;
+}
+table, tr, th, td
+{
+    background-color: #420c0c;
+    property:value;
+    border: 2px solid #420c0c;    
+    border-collapse: collapse;
+}
+th
+{
+    color: beige;
+}
+td
+{
+    text-align: center;
+}
+td:nth-child(even)
+{
+    background-color: #f4d3ca;
+}
+td:nth-child(odd)
+{
+    background-color: beige;
+}
+table td:hover
+{
+    color: beige;
+    background-color: #420c0c;
+}
+h2
+{
+    color: beige;
+    background-color: #420c0c;
+    padding: 6px;
+}

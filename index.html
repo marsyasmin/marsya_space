@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marsya's Homepage</title>
+    <link rel="stylesheet" href="css/style1.css">
+
+    <style>
+        body
+        {
+            background-image: url("animation/ani2.gif");
+            color: white;
+        }
+        section 
+        {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            justify-content: center;
+        }
+        article 
+        {
+            background-color: #420c0c;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .header-animation 
+        {
+            width: 100%;
+            max-width: 600px;
+        }
+        p 
+        {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+<nav>
+    <h1><img src="images/header2.png" width="200" height="35"></h1>
+    <a style="background-color: beige;" href="index.html"><strong>Home</strong></a>
+    <a href="about.html"><strong>About Me</strong></a>
+    <a href="family.html"><strong>Family</strong></a>
+    <a href="experience.html"><strong>Experience</strong></a>
+    <a href="education.html"><strong>Education</strong></a>
+    <a href="gallery.html"><strong>Gallery</strong></a>
+</nav>
+</header>
+
+<section>
+
+    <center><iframe src="https://free.timeanddate.com/clock/ia85me9h/n122/fn15/fc420c0c/tct/pct/ftb/tt0/tw1/tm1/th1/tb4" class="clock" frameborder="0" width="117" height="35" allowtransparency="true"></iframe><center>
+
+    <article>
+        <img src="animation/header.gif" alt="Header Animation" class="header-animation">
+
+        <h1><strong>♡ Hello Peeps!</strong></h1>
+
+        <p id="first">✧ Welcome to my little digital diary ✧</p>
+        <button type="button" onclick='document.getElementById("first").innerHTML="Feel free to explore my pages and get to know me better"'>tap here</button>
+            
+        <h4 style="text-align: justify; text-align: center;"><i>This is my personal website where I share about myself,<br>
+            my experiences, and the little things that make me who I am✨</i></h4>
+        
+    </article>
+
+</section>
+
+<audio controls autoplay loop>
+        <source src="audio/lofi1.mp3" type="audio/mp3">
+    </audio>
+
+<footer>
+    <h4>© <span id="year"></span> Marsya</h4>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    alert("Assalamualaikum. \nWelcome to my space!")
+</script>
+
+</body>
+</html>

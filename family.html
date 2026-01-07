@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marsya's Family</title>
+    <link rel="stylesheet" href="css/style1.css">
+
+    <style>
+        body
+        {
+            background-image: url("animation/ani2.gif");
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            color: #420c0c;
+            text-align: center;
+        }
+        .container 
+        {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+            justify-content: center; 
+        }
+        article 
+        {
+            flex: 1;
+            background-color: none;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 810px;
+        }
+        article header 
+        {
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        section 
+        {
+            background-color: #faf6f1;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+<nav>
+    <h3><img src="images/header2.png" width="200" height="35"></h1>
+    <a href="index.html"><strong>Home</strong></a>
+    <a href="about.html"><strong>About Me</strong></a>
+    <a style="background-color: beige;" href="family.html"><strong>Family</strong></a>
+    <a href="experience.html"><strong>Experience</strong></a>
+    <a href="education.html"><strong>Education</strong></a>
+    <a href="gallery.html"><strong>Gallery</strong></a>
+</nav>
+</header>
+
+
+    <h3><video controls autoplay width="40%" style="border-radius: 10px;">
+            <source src="video/family.mp4" type="video/mp4">
+            </video></h3>
+    
+                <h3 style="background-color: beige; line-height: 1.8;">My family means a lot to me! 
+
+                    <p>I come from a family of 6 members.My family consists of my dad, mom, me and my 3 little brothers.<br> My family always support me in everything I do. Spending time with my family makes me feel at ease,<br> and they play an important role in shaping who I am today.</p></h3>
+
+
+<div class="container">
+    <article>
+        <header style="color: #420c0c; background-color: #faf6f1; height: 450px;">
+
+                <h3 style="text-align: center;"> ABOUT MY PARENTS</h3> 
+
+        <ul style="list-style-type: square; text-align: left; line-height: 1.5;">
+
+        <img src="images/parents.jpeg" alt="Papa & Mama" style="float: left; width: 220px; height: 150px; border-radius: 8px; margin-right: 20px;">
+
+        <h3 style="background-color: lightblue;">MY DAD</h3>
+
+            <li><b>Name:</b> Tengku Azlimi Bin Tengku Ab. Razah</li>
+            <li><b>Date of Birth:</b> 21 September 1974</li>
+            <li><b>Occupation:</b> Pembantu Pustakawan Kanan</li> 
+            <li><b>Hometown:</b> Machang, Kelantan</li> 
+            
+        </ul>
+
+        <ul style="list-style-type: square; text-align: left; line-height: 1.5;">
+
+            <img src="images/parents2.png" alt="Papa & Mama" style="float: right; width: 250px;">
+            <h3 style="background-color: #f4d4cd;">MY MOM</h3>
+            <li><b>Name:</b> Noor Azma Binti Abdullah</li>
+            <li><b>Date of Birth:</b> 30 July 1978</li>
+            <li><b>Occupation:</b> Pembantu Pegawai Tadbir</li> 
+            <li><b>Hometown:</b> Kota Bharu, Kelantan</li>
+
+        </ul>
+           
+        </header>
+
+        <section style="background-color: #d1e5f4; height: 350px;" ><img src="images/sibs6.png" alt="My Siblings" style="float: left; position: center; width: 280px; margin-right: 40px;"><img src="images/sibs7.png" alt="My Siblings" style="float: right; width: 210px; height: 190px; margin-right: 5px;">
+
+             <h3 style="text-align: left; background-color: #d1edcc;">MY SIBLINGS</h3>
+
+                <ol style="text-align: left" type="1" start="1" style="text">
+                <li><b>Tengku Rayyan Mirza</b></li>
+                    <ul>
+                        <li>Date of Birth: 8 November 2008</li>
+                        <li>Age: 17</li>
+                        <li>Education: Just finished SPM</li>
+                    </ul><br>
+                <li><b>Tengku Harraz Mirza</b></li>
+                    <ul>
+                        <li>Date of Birth: 9 February 2012</li>
+                        <li>Age: 14</li>
+                        <li>Education: SMK Dato Ahmad Maher</li>
+                    </ul><br>
+                <li><b>Tengku Addahr Mirza</b></li>
+                    <ul>
+                        <li>Date of Birth: 10 November 2016</li>
+                        <li>Age: 10</li>
+                        <li>Education: SK Sultan Ismail 2</li>
+                    </ul>
+                </ol>
+
+        </section>
+
+        <section>
+            <h3>Photos of My Family</h3>
+            <p><img style="width:330px; border-radius: 8px;" src="images/fam2.jpeg" alt="My Family"></p>
+            <p><img style="width:330px; border-radius: 8px;" src="images/sibs.jpg" alt="My Family"></p>
+        </section>
+
+    </article>
+
+</div>
+
+<footer>
+    <h4>© <span id="year"></span> Marsya</h4>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
